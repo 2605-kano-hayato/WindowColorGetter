@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.manifest",
+              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\app.manifest",
+              "RelativeDocumentMoniker": "WindowColorGetter\\app.manifest",
+              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\app.manifest",
+              "RelativeToolTip": "WindowColorGetter\\app.manifest",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-07-03T07:26:15.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Program.cs",
+              "RelativeDocumentMoniker": "WindowColorGetter\\Program.cs",
+              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Program.cs",
+              "RelativeToolTip": "WindowColorGetter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T07:24:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\FrmMain.cs",
+              "RelativeDocumentMoniker": "WindowColorGetter\\FrmMain.cs",
+              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\FrmMain.cs*",
+              "RelativeToolTip": "WindowColorGetter\\FrmMain.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T06:18:45.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowColorGetter\\Form1.cs",
-              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "RelativeToolTip": "WindowColorGetter\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Title": "FrmMain.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\FrmMain.cs",
+              "RelativeDocumentMoniker": "WindowColorGetter\\FrmMain.cs",
+              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\FrmMain.cs [\u30C7\u30B6\u30A4\u30F3]*",
+              "RelativeToolTip": "WindowColorGetter\\FrmMain.cs [\u30C7\u30B6\u30A4\u30F3]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T02:15:54.479Z",
               "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"

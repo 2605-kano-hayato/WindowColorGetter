@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|e:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\windowcolorgetter\\windowcolorgetter\\windowcolorgetter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9672CA90-DD5A-4528-8672-F2273C4671AB}|WindowColorGetter\\WindowColorGetter.csproj|solutionrelative:windowcolorgetter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowColorGetter\\Form1.cs",
+              "ToolTip": "E:\\hayato\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\git\\WindowColorGetter\\WindowColorGetter\\WindowColorGetter\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "WindowColorGetter\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T02:15:54.479Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

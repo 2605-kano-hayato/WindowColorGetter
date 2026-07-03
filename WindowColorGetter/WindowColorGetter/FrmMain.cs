@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Channels;
 using System.Windows.Forms;
 
 namespace WindowColorGetter
@@ -9,6 +11,9 @@ namespace WindowColorGetter
     {
         #region 変数
         private Color lastColor;
+        
+        [DllImport("user32.dll")]
+        private static extern bool HideCaret(IntPtr hWnd);
         #endregion 変数
 
         #region コンストラクタ
@@ -19,6 +24,25 @@ namespace WindowColorGetter
         #endregion コンストラクタ
 
         #region イベントハンドラ
+        /// <summary>
+        /// ロードイベント - メインフォーム
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FrmWindowColorGetter_Load(object sender, EventArgs e)
+        {
+            // テキストボックスのフォーカス解除制御を追加
+            foreach (Control control in this.Controls)
+            {
+                if (control is TextBox txtbox)
+                {
+                    txtbox.GotFocus += this.txtbox_Entered;
+                    txtbox.MouseClick += this.txtbox_Entered;
+                    txtbox.MouseDown += this.txtbox_Entered;
+                }
+            }
+        }
+
         /// <summary>
         /// クリックイベント - 座標取得開始モードボタン
         /// </summary>
@@ -58,13 +82,17 @@ namespace WindowColorGetter
             // 座標取得
             Point clickPoint = Cursor.Position;
             // 座標の画面上色取得
-            lastColor = GetColorAtPoint(clickPoint);
+            this.lastColor = GetColorAtPoint(clickPoint);
 
-            Debug.WriteLine(clickPoint + ", " + lastColor);
-
+            string strColor = "";
             // RGB値設定
-            string strRGBColor = this.lastColor.R.ToString() + "," + this.lastColor.G.ToString() + "," + this.lastColor.B.ToString();
-            this.txtboxRGB.Text = strRGBColor;
+            strColor = this.lastColor.R.ToString() + "," + this.lastColor.G.ToString() + "," + this.lastColor.B.ToString();
+            this.txtboxRGB.Text = strColor;
+
+            strColor = "";
+            // HEX値設定
+            strColor = ColorTranslator.ToHtml(this.lastColor);
+            this.txtboxHEX.Text = strColor;
         }
         #endregion イベントハンドラ
 
@@ -90,6 +118,17 @@ namespace WindowColorGetter
             }
             return result;
         }
+
+        /// <summary>
+        /// テキストイベントのフォーカスを解除する
+        /// </summary>
+        /// <returns></returns>
+        private void txtbox_Entered(Object sender, EventArgs e)
+        {
+            // 最上位の親フォームにフォーカスを当てる
+            if(sender is TextBox txtbox) HideCaret(txtbox.Handle);
+        }
         #endregion メソッド
+
     }
 }

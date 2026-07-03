@@ -32,6 +32,8 @@
             this.btnStartGetColorMode = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtboxRGB = new System.Windows.Forms.TextBox();
+            this.txtboxHEX = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -73,20 +75,49 @@
             // txtboxRGB
             // 
             this.txtboxRGB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtboxRGB.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtboxRGB.CausesValidation = false;
+            this.txtboxRGB.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.txtboxRGB.Font = new System.Drawing.Font("Yu Gothic UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtboxRGB.Location = new System.Drawing.Point(106, 272);
             this.txtboxRGB.Name = "txtboxRGB";
             this.txtboxRGB.ReadOnly = true;
             this.txtboxRGB.Size = new System.Drawing.Size(100, 26);
             this.txtboxRGB.TabIndex = 3;
+            this.txtboxRGB.TabStop = false;
             this.txtboxRGB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtboxHEX
+            // 
+            this.txtboxHEX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtboxHEX.CausesValidation = false;
+            this.txtboxHEX.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtboxHEX.Font = new System.Drawing.Font("Yu Gothic UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtboxHEX.Location = new System.Drawing.Point(106, 304);
+            this.txtboxHEX.Name = "txtboxHEX";
+            this.txtboxHEX.ReadOnly = true;
+            this.txtboxHEX.Size = new System.Drawing.Size(100, 26);
+            this.txtboxHEX.TabIndex = 5;
+            this.txtboxHEX.TabStop = false;
+            this.txtboxHEX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label3.Location = new System.Drawing.Point(25, 307);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "HEX";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmWindowColorGetter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 461);
+            this.Controls.Add(this.txtboxHEX);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtboxRGB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnStartGetColorMode);
@@ -94,6 +125,7 @@
             this.MinimumSize = new System.Drawing.Size(525, 375);
             this.Name = "FrmWindowColorGetter";
             this.Text = "画面色取得";
+            this.Load += new System.EventHandler(this.FrmWindowColorGetter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,6 +137,8 @@
         private System.Windows.Forms.Button btnStartGetColorMode;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtboxRGB;
+        private System.Windows.Forms.TextBox txtboxHEX;
+        private System.Windows.Forms.Label label3;
     }
 }
 

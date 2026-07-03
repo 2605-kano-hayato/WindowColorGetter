@@ -93,6 +93,9 @@ namespace WindowColorGetter
             // HEX値設定
             strColor = ColorTranslator.ToHtml(this.lastColor);
             this.txtboxHEX.Text = strColor;
+
+            // 色表示
+            this.panelVisualColor.BackColor = this.lastColor;
         }
         #endregion イベントハンドラ
 

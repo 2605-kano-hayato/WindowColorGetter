@@ -34,6 +34,8 @@
             this.txtboxRGB = new System.Windows.Forms.TextBox();
             this.txtboxHEX = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panelVisualColor = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -111,11 +113,32 @@
             this.label3.Text = "HEX";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.Control;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label4.Location = new System.Drawing.Point(25, 244);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 20);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Color";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panelVisualColor
+            // 
+            this.panelVisualColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelVisualColor.Location = new System.Drawing.Point(106, 240);
+            this.panelVisualColor.Name = "panelVisualColor";
+            this.panelVisualColor.Size = new System.Drawing.Size(100, 26);
+            this.panelVisualColor.TabIndex = 8;
+            // 
             // FrmWindowColorGetter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 461);
+            this.Controls.Add(this.panelVisualColor);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtboxHEX);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtboxRGB);
@@ -139,6 +162,8 @@
         private System.Windows.Forms.TextBox txtboxRGB;
         private System.Windows.Forms.TextBox txtboxHEX;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panelVisualColor;
     }
 }
 
